@@ -1,0 +1,30 @@
+.dx_thumbnail_elem,
+.dx_thumbnail_elem span,
+.dx_thumbnail_elem strong {
+  font-size: 8px !important;
+}
+
+.dx_thumbnail_elem .dx_thumbnail_elem_splash,
+.dx_thumbnail_elem .dx_thumbnail_elem_splash span,
+.dx_thumbnail_elem .dx_thumbnail_elem_splash strong {
+  font-size: 6px !important;
+}
+
+.dx_thumbnail_elem p {
+  margin: 0;
+}
+.dx_thumbnail_elem img {
+  width: 100%;
+}
+.ql-align-left {
+  text-align: left;
+}
+.ql-align-center {
+  text-align: center;
+}
+.ql-align-right {
+  text-align: right;
+}
+.ql-align-justify {
+  text-align: justify;
+}

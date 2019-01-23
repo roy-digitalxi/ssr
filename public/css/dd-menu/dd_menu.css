@@ -1,0 +1,56 @@
+.dd-menu-items {
+  width: 144px;
+}
+
+.dx-layout-menu {
+  float: left;
+  width: 100%;
+}
+
+.dx-layout-menu > div.dd-menu-items {
+  margin-top: 0;
+  width: 100%;
+}
+
+.dd-menu.dx_color_drop_menu .dd-menu-items {
+  width: 360px;
+}
+
+.dd-menu.dx_channel_drop_menu .dd-menu-items {
+  width: 90px;
+}
+
+.dx_channel_option_drop_menu .dd-menu-items {
+  width: 250px;
+}
+
+.dx_experience_drop_menu .dd-menu-items {
+  width: 144px;
+}
+
+.dx_language_drop_down_menu {
+  position: initial;
+}
+
+.dx_language_drop_down_menu .dd-menu-items {
+  width: 90px;
+}
+
+.dd-menu.dd-menu-right.dx_language_drop_down_menu .dd-menu-items {
+  right: 72px;
+}
+
+.dx_language_drop_down_menu .dd-menu-items ul.dd-items-center {
+  position: absolute;
+  color: #000;
+  background-color: #fefefe;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.29);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  z-index: 9999;
+  list-style: none;
+}

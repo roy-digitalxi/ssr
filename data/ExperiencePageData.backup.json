@@ -1,0 +1,49 @@
+{
+  "PageTemplates": [
+    {
+      "PageTemplateGUID": "03cacf2b-e20d-44d1-a1a4-3d034d8fdf44",
+      "Title": "Responsive Editor",
+      "Type": "EDITOR"
+    },
+    {
+      "PageTemplateGUID": "145c4ddd-995a-42ef-b180-fb2c6bfe3b70",
+      "Title": "Button to connect another page",
+      "Type": "BUTTON"
+    },
+    {
+      "PageTemplateGUID": "a5e2a212-3ec0-47c7-88c5-0c88dbc29091",
+      "Title": "Embed a PDF file",
+      "Type": "EMBED_PDF"
+    },
+    {
+      "PageTemplateGUID": "cf693a0c-3246-4ad7-bdb1-e7e3d8e0d8be",
+      "Title": "Splash image for a page",
+      "Type": "SPLASH"
+    },
+    {
+      "PageTemplateGUID": "66c0d0f1-c051-4fce-892c-ed89d1f1efdf",
+      "Title": "Embed a youtube or vimeo video with URL",
+      "Type": "VIDEO"
+    },
+    {
+      "PageTemplateGUID": "5cc63d87-ec3c-49f0-a967-6179b7ebdc6f",
+      "Title": "Image",
+      "Type": "IMAGE"
+    },
+    {
+      "PageTemplateGUID": "2c54867d-ffb8-4793-bc88-1757c5dd1621",
+      "Title": "Hyperlink",
+      "Type": "LINK"
+    },
+    {
+      "PageTemplateGUID": "935d9b87-96d5-4007-a0b2-e93cd262bc6f",
+      "Title": "Advanced Button Image",
+      "Type": "AD_BUTTON"
+    },
+    {
+      "PageTemplateGUID": "2248aa56-6b39-41d6-abc5-fbb1dced8a70",
+      "Title": "Advanced Button Background Color",
+      "Type": "AD_BUTTON_2"
+    }
+  ]
+}

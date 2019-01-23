@@ -1,10 +1,4 @@
 {
-  "extends": [
-    "eslint:recommended",
-    "plugin:import/errors",
-    "plugin:jsx-a11y/recommended",
-    "plugin:react/recommended"
-  ],
   "parser": "babel-eslint",
   "parserOptions": {
     "ecmaVersion": 2015,

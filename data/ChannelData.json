@@ -1,0 +1,20 @@
+[
+  {
+    "ChannelGUID": "0debe6f9-b002-4449-ad5b-1830b3ba7284",
+    "ChannelName": "Diabetes",
+    "ChannelColor": "orange",
+    "IsPrivate": 0,
+    "CreatedAt": " ",
+    "UpdatedAt": " ",
+    "Status": " "
+  },
+  {
+    "ChannelGUID": "b4ec1fba-b9bf-4c7c-8deb-58ed284a5e16",
+    "ChannelName": "Hypertension",
+    "ChannelColor": "blue",
+    "IsPrivate": 1,
+    "CreatedAt": " ",
+    "UpdatedAt": " ",
+    "Status": " "
+  }
+]

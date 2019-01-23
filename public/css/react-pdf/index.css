@@ -1,0 +1,29 @@
+.react-pdf__Document {
+  background-color: #e6e6e6;
+}
+.react-pdf__Page {
+  margin-bottom: 6px;
+}
+.react-pdf__message.react-pdf__message--no-data {
+  height: 72px;
+  padding-left: 12px;
+  line-height: 72px;
+  color: #777777;
+  font-size: 14px;
+}
+.dx_thumbnail_elem .react-pdf__message.react-pdf__message--no-data {
+  height: 36px;
+  padding-left: 6px;
+  line-height: 36px;
+  font-size: 9px;
+}
+
+.react-pdf__message {
+  min-height: 72px;
+  line-height: 72px;
+  padding-left: 12px;
+}
+
+.react-pdf__Page__annotations.annotationLayer {
+  display: none;
+}

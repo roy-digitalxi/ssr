@@ -1,0 +1,67 @@
+.custom_overlay {
+  /* background: rgba(36, 123, 160, 0.7); */
+}
+.custom-modal {
+  width: 645px;
+  height: 420px;
+}
+.custom-InviteModal {
+  width: 1180px;
+  height: 826px;
+  padding: 0;
+}
+.custom-StreamModal {
+  width: 645px;
+  height: 420px;
+  padding: 0;
+}
+.dx_overlay {
+}
+.dx_modal {
+  padding: 0;
+  width: 480px;
+  border-radius: 12px;
+}
+
+.dx_user_invite_modal {
+  padding: 0;
+  width: 840px;
+  border-radius: 0;
+}
+
+.dx_user_inner_modal {
+  padding: 0;
+  width: 480px;
+  border-radius: 12px;
+}
+
+.dx_modal button,
+.dx_user_invite_modal button {
+  cursor: pointer;
+  outline: none;
+}
+
+/* New channel modal */
+.custom_channelmodal {
+  width: 600px;
+  padding: 24;
+}
+
+/* Preview modal */
+.dx_preview_overlay {
+  background-color: rgba(0, 0, 0, 1);
+}
+.dx_preview_modal {
+  width: 100vw;
+  max-width: 100vw;
+  padding: 0;
+  background-color: transparent;
+}
+
+.dx_user_invite_input::placeholder,
+.dx_user_edit_input::placeholder {
+  color: #cacaca;
+}
+.dx_hover_underline_a:hover {
+  text-decoration: underline;
+}

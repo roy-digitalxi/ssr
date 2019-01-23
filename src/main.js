@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import Loadable from 'react-loadable';
 
-import App from './App';
+import App from './app/App';
 import configureStore from './utils/configureStore';
 
 import './styles/index.scss';

@@ -5,7 +5,7 @@ import { matchPath } from 'react-router-dom';
 const ROUTES_THAT_FETCH_DATA = [
   {
     path: '/',
-    component: <div>first component</div>,
+    component: <div>loading..</div>,
     exact: true
   }
 ];

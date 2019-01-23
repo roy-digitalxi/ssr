@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto|Monoton|Raleway|Ubuntu');
+/* default */
+.ql-editor {
+  min-height: 120px;
+  padding: 12px;
+}
+.ql-snow .ql-picker.ql-expanded .ql-picker-options {
+  z-index: 99;
+}
+.ql-snow .ql-transparent {
+  opacity: 1;
+}
+.ql-toolbar.ql-snow {
+  border: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.ql-container {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.ql-snow .dx_tool_bar_font .ql-stroke {
+  stroke: #a8b7c5;
+}
+.ql-snow .dx_tool_bar_font .ql-fill {
+  fill: #a8b7c5;
+}
+.ql-toolbar.ql-snow .ql-formats {
+  margin-right: 9px;
+}
+
+/* font setting */
+.ql-snow .ql-picker.ql-font {
+  width: 140px;
+  height: 36px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 9px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 18px;
+}
+.ql-toolbar.ql-snow .ql-picker-label {
+  border: none;
+}
+.ql-snow.ql-toolbar .ql-picker-label:hover {
+  color: #000000;
+}
+.ql-snow.ql-toolbar .ql-picker-label:focus {
+  outline: none;
+}
+
+/* size setting */
+.ql-snow .ql-picker.ql-size {
+  width: 66px;
+  height: 36px;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  text-align: left;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 18px;
+}
+.ql-snow .ql-color-picker {
+  margin-right: 12px;
+}
+.ql-align.ql-picker.ql-icon-picker,
+.ql-color.ql-picker.ql-color-picker,
+.ql-background.ql-picker.ql-color-picker,
+.ql-snow.ql-toolbar button.ql-clean {
+  height: 36px;
+  width: 36px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* color svg btn */
+.ql-snow .dx_tool_bar_color .ql-color-picker .ql-picker-label svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+}
+.ql-color.ql-picker.ql-color-picker polyline,
+.ql-color.ql-picker.ql-color-picker line:nth-child(3) {
+  display: none;
+}
+.ql-color.ql-picker.ql-color-picker line:nth-child(1) {
+  stroke-width: 30px;
+}
+
+/* bg color svg btn */
+.ql-background.ql-picker.ql-color-picker .ql-picker-label {
+  padding: 0;
+  overflow: auto;
+}
+.ql-snow .dx_tool_bar_bgcolor .ql-color-picker .ql-picker-label svg {
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 44px;
+}
+.ql-snow .dx_tool_bar_bgcolor .ql-color-picker .ql-picker-label svg g {
+  width: 36px;
+  height: 36px;
+}
+.ql-snow .dx_tool_bar_bgcolor .ql-color-picker .ql-picker-label svg rect {
+  width: 24px;
+  height: 24px;
+}
+.ql-snow .dx_tool_bar_bgcolor .ql-color-picker .ql-picker-label svg polyline,
+.ql-snow .dx_tool_bar_bgcolor .ql-color-picker .ql-picker-label svg line {
+  display: none;
+}
+
+/* clean svg btn */
+.ql-snow.ql-toolbar button.ql-clean {
+  position: relative;
+}
+.ql-snow.ql-toolbar button.ql-clean svg {
+  display: none;
+}
+.ql-snow.ql-toolbar button.ql-clean::after {
+  position: absolute;
+  top: -1px;
+  left: 6px;
+  font-size: 24px;
+  font-weight: bold;
+  content: '⟲';
+}
+
+/* font size */
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='12px']::before {
+  content: '12' !important;
+  font-size: 12px !important;
+}
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='12px']::before {
+  content: '12' !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='16px']::before {
+  content: '16' !important;
+  font-size: 16px !important;
+}
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='16px']::before {
+  content: '16' !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='20px']::before {
+  content: '20' !important;
+  font-size: 20px !important;
+}
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='20px']::before {
+  content: '20' !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='24px']::before {
+  content: '24' !important;
+  font-size: 24px !important;
+}
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='24px']::before {
+  content: '24' !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value='28px']::before {
+  content: '28' !important;
+  font-size: 28px !important;
+}
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='28px']::before {
+  content: '28' !important;
+}
+
+/* font family */
+.ql-font-Open_Sans {
+  font-family: 'Open Sans', sans-serif;
+}
+.ql-font-Roboto {
+  font-family: 'Roboto', sans-serif;
+}
+.ql-font-Lato {
+  font-family: 'Lato', sans-serif;
+}
+.ql-font-Raleway {
+  font-family: 'Raleway', sans-serif;
+}
+.ql-font-Ubuntu {
+  font-family: 'Ubuntu', sans-serif;
+}
+.ql-font-Monoton {
+  font-family: 'Monoton', cursive;
+}
+
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='Open_Sans']::before {
+  content: 'Open Sans' !important;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='Open_Sans']::before {
+  content: 'Open Sans' !important;
+}
+
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='Roboto']::before {
+  content: 'Roboto' !important;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='Roboto']::before {
+  content: 'Roboto' !important;
+}
+
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='Lato']::before {
+  content: 'Lato' !important;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='Lato']::before {
+  content: 'Lato' !important;
+}
+
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='Raleway']::before {
+  content: 'Raleway' !important;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='Raleway']::before {
+  content: 'Raleway' !important;
+}
+
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='Ubuntu']::before {
+  content: 'Ubuntu' !important;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='Ubuntu']::before {
+  content: 'Ubuntu' !important;
+}
+
+.ql-snow.ql-toolbar .ql-picker-label.ql-active[data-value='Monoton']::before {
+  content: 'Monoton' !important;
+}
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value='Monoton']::before {
+  content: 'Monoton' !important;
+}
+
+/* v2 */
+.ql-text-editor .ql-editor {
+  padding: 0;
+  min-height: 0;
+  max-height: 78px;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+.ql-container.ql-snow {
+  border: none;
+}
+
+.ql-text-editor .ql-container.ql-snow {
+  border: none;
+}
+.ql-text-editor .ql-editor:focus {
+  border: 1px solid #4397c9;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(67, 151, 201, 0.6);
+}
+.ql-text-editor .ql-container {
+  font-size: 12px;
+}
+
+/* v3 */
+.ql-text-editor-2 .ql-editor {
+  padding: 0;
+  min-height: 0;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+}
+
+.ql-text-editor-2 .ql-container.ql-snow {
+  border: none;
+}
+.ql-text-editor-2 .ql-editor:focus {
+  border: 1px solid #4397c9;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset,
+    0 0 8px rgba(67, 151, 201, 0.6);
+}
+.ql-text-editor-2 .ql-container {
+  font-size: 12px;
+}
+
+.ql-clipboard {
+  display: none;
+}

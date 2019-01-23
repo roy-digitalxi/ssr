@@ -1,0 +1,52 @@
+.dx-tab {
+  min-height: 40px !important;
+}
+.dx-tab > span {
+  margin-bottom: -12px;
+}
+.dx-tab[aria-selected='true'] {
+  color: #2a75f6 !important;
+}
+.dx-tabs {
+  min-height: 40px !important;
+}
+.dx-tabs > div > div > div {
+  justify-content: flex-start !important;
+}
+.dx-tabs > div > div > span {
+  background-color: #2a75f6 !important;
+  height: 3px;
+}
+.dx-tab > span > span {
+  padding-left: 18px !important;
+  padding-right: 18px !important;
+  padding-bottom: 12px !important;
+}
+.dx-tab > span > span > span {
+  font-size: 12px !important;
+}
+@media (min-width: 960px) {
+  .dx-tab {
+    min-width: 90px !important;
+  }
+}
+
+.dx-lower-case {
+  text-transform: lowercase !important;
+}
+.dx-cat-btn > span {
+  justify-content: flex-start !important;
+}
+
+.dx_battery_icon {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.dx_opacity_slider div div,
+.dx_opacity_slider div button {
+  background-color: rgb(1, 118, 255);
+}

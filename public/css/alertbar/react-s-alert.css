@@ -1,0 +1,6 @@
+@import url('./jelly.css');
+@import url('./s-alert-default.css');
+
+.s-alert-box-inner {
+  text-align: center;
+}

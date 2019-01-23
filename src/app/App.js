@@ -1,12 +1,27 @@
 import React from 'react';
-import {
-  Switch
-  // Route,
-} from 'react-router-dom';
-// import Loadable from 'react-loadable';
+import { Switch, Route, Redirect } from 'react-router-dom';
+
+// Lib
+import Loadable from 'react-loadable';
 import Helmet from 'react-helmet';
 
-import * as metadata from './metadata';
+// router
+import { withRouter } from 'react-router-dom';
+
+import * as metadata from '../metadata';
+
+// redux
+import { connect } from 'react-redux';
+import {
+  dxAlert as dxAlertAction,
+  dxKeycloakRoute as dxKeycloakRouteAction,
+  dxKeycloakAdminLogin as dxKeycloakAdminLoginAction,
+  dxKeycloakLogin as dxKeycloakLoginAction
+} from '../actions';
+
+// components
+import AlertBar from '../components/alertBar/AlertBar';
+import Loading from '../components/loading/Loading';
 
 // const LoadableHome = Loadable({
 //   loader: () => import(/* webpackChunkName: 'home' */ './components/Home'),
