@@ -1,4 +1,4 @@
-export const title = 'React SSR Boilerplate';
+export const title = 'PublishXi';
 
 export const meta = [
   {

@@ -23,7 +23,7 @@ const Loadable = require('react-loadable');
 
 const { app } = require('./app');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8888;
 
 // Use the native Node.js cluster module to create a worker processes for each CPU
 if (cluster.isMaster) {
