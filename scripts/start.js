@@ -31,7 +31,7 @@ const openBrowser = require('react-dev-utils/openBrowser');
 
 const { app } = require('../server/app');
 
-const DEFAULT_PORT = process.env.PORT || 3000;
+const DEFAULT_PORT = process.env.PORT || 8888;
 const HOST = process.env.HOST || '0.0.0.0';
 const isInteractive = process.stdout.isTTY;
 
